@@ -1,0 +1,5 @@
+bot-telegram-python
+Flask
+Poetry
+requests
+...
