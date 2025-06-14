@@ -4,4 +4,5 @@ numpy
 requests
 Poetry
 pandas-ta
+setuptools
 
