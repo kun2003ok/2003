@@ -3,6 +3,6 @@ Flask
 Poetry
 requests
 numpy
-pandas-ta==0.3.14
+
 
 
