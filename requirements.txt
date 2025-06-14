@@ -3,4 +3,5 @@ Flask
 Poetry
 requests
 numpy
-TA-lib
+pip install pandas-ta
+
