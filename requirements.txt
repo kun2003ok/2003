@@ -1,11 +1,9 @@
-python-telegram-bot
 Flask
-numpy
-requests
-Poetry
-pandas-ta
-setuptools
 numpy<2.0
+pandas
 pandas-ta
+python-telegram-bot
+setuptools
 gunicorn
+requests
 
