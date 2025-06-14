@@ -1,7 +1,7 @@
 python-telegram-bot
 Flask
 numpy
-talib
 requests
 Poetry
+pandas-ta
 
