@@ -1,7 +1,12 @@
+from flask import Flask, request, jsonify
 import requests
 import time
 import numpy as np
-import talib
+import pandas as pd
+import pandas_ta as ta
+import threading
+
+app = Flask(__name__)
 
 # Thông tin Bot Telegram của bạn
 TELEGRAM_BOT_TOKEN = "7650170728:AAECcS5Vt-YjqPGUM-yuYVaRPaZXeZtKvXU"
