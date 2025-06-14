@@ -241,14 +241,3 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    return "Ứng dụng đang chạy!"
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=81)
-from keep_alive import run
-import threading
-
-threading.Thread(target=run).start()
