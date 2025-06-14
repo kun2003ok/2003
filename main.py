@@ -246,32 +246,5 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    return "Ứng dụng đang chạy!"
 
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=81)
-from keep_alive import run
-import threading
-
-threading.Thread(target=run).start()
-import os
-
-def download_code(filename="main.py"):
-    """Downloads the content of this script to a local file."""
-    try:
-        with open(__file__, 'r') as source_file:
-            code = source_file.read()
-
-        with open(filename, 'w') as dest_file:
-            dest_file.write(code)
-
-        print(f"Code downloaded to {filename}")
-
-    except Exception as e:
-        print(f"Error downloading code: {e}")
-
-if __name__ == "__main__":
-    download_code()
+    
