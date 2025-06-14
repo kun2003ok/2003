@@ -5,4 +5,6 @@ requests
 Poetry
 pandas-ta
 setuptools
+numpy<2.0
+pandas-ta
 
