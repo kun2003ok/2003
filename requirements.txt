@@ -3,5 +3,6 @@ Flask
 Poetry
 requests
 numpy
-pip install pandas-ta
+pandas-ta==0.3.14
+
 
