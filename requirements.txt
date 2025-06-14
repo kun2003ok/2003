@@ -1,4 +1,4 @@
-bot-telegram-python
+python-telegram-bot
 Flask
 Poetry
 requests
