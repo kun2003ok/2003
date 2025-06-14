@@ -1,8 +1,7 @@
 python-telegram-bot
 Flask
-Poetry
-requests
 numpy
-
-
+talib
+requests
+Poetry
 
